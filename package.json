@@ -17,7 +17,7 @@
         "@discordjs/opus": "^0.8.0",
         "@discordjs/rest": "^1.1.0",
         "@discordjs/voice": "^0.17.0",
-        "@distube/soundcloud": "^1.2.1",
+        "@distube/soundcloud": "^2.0.4",
         "@distube/spotify": "^2.0.2",
         "@distube/yt-dlp": "^2.0.1",
         "@distube/ytdl-core": "^4.15.1",
