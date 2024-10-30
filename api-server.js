@@ -186,7 +186,7 @@ module.exports = function (client) {
     })
 
     // Start the Express server
-    const PORT = 3001 // You can change this port if needed
+    const PORT = process.env.PORT || 3000 // You can change this port if needed
     app.listen(PORT, () => {
         console.log(`Bot API server is running on port ${PORT}`)
     })
