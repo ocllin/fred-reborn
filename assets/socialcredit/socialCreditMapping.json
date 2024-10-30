@@ -1,0 +1,33 @@
+{
+    "common": {
+        "1.jpg": 5,
+        "common1.png": 50,
+        "common2.png": 15
+    },
+    "rare": {
+        "rare1.png": 68,
+        "chris1.png": 69,
+        "griffin1.png": 100
+    },
+    "epic": {
+        "eric1.png": 500,
+        "clarencefred1.png": 500,
+        "griffinfred1.png": 500
+    },
+    "legendary": {
+        "tinka.png": 1000,
+        "griffin.png": 1000,
+        "griffin2.png": 750,
+        "minion1.png": 2000
+    },
+    "bad": {
+        "bad1.png": -38,
+        "bad2.png": -250,
+        "bad3.png": -30,
+        "chris1.png": -600
+    },
+    "reallybad": {
+        "reallybad.jpg": -69420,
+        "clarence.png": -10000
+    }
+}

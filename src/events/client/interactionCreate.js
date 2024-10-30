@@ -1,5 +1,5 @@
 module.exports = {
-    name: "interactionCreate",
+    name: 'interactionCreate',
     async execute(interaction, client) {
         if (interaction.isChatInputCommand()) {
             const { commands } = client
@@ -13,11 +13,11 @@ module.exports = {
                 console.error(error)
                 await interaction.reply({
                     content: 'huh',
-                    ephemeral: true
+                    ephemeral: true,
                 })
             }
         }
-        if (interaction.isSelectMenu()) {
+        if (interaction.isStringSelectMenu()) {
             if (interaction.customId === 'song_selection') {
                 if (!interaction.member.voice.channel) return interaction.reply(`You aren't in a voice channel dawg`)
                 client.distube.play(interaction.member.voice.channel, interaction.values[0], {
@@ -40,5 +40,5 @@ module.exports = {
                 interaction.deferUpdate()
             }
         }
-    }
+    },
 }
